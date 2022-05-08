@@ -173,6 +173,11 @@ line-height: 1,88;
 letter-spacing: 0.06em;
 }
 
+.button:hover, .button:focus {
+color: var(--main-bg-color);
+background-color: #188CE8;
+}
+
 /* feature-list */
 
 .section {
@@ -410,8 +415,6 @@ justify-content: center;
     background-color: ;
 }
 
-.filters .item {
-}
 
 .filters .item+.item {
     margin-left: 8px;
