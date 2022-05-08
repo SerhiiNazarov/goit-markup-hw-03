@@ -413,14 +413,16 @@ margin-right: 0;
 }  */
 
 .container-title {
-padding: 20px 24px;
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 24px;
+padding-left: 24px;
 border-right: 1px solid #EEEEEE;
 border-bottom: 1px solid #EEEEEE;
 border-left: 1px solid #EEEEEE;
 }
 
 .container-title > .title {
-margin-bottom: 4px;
 
 font-weight: 700;
 font-size: 18px;
@@ -429,6 +431,8 @@ letter-spacing: 0.06em;
 }
 
 .container-title > .list {
+margin-top: 4px;
+
 color: var(--primary-text-color);
 
 font-weight: 400;
